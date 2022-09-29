@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+     margin: 0%;
+     background-color: rgb(247, 36, 36);
+     top: 0%;
+     bottom: 0%;
+     display: grid;
+     grid-template-rows: 75px;
+     grid-template-columns: 1fr 1fr 2fr;
+     gap: 10px;
+     grid-template-areas:
+     "empresa presu menus";
+
+    }
+    
+header h1 {
+    color: white;
+    font-size: 18px;
+}
+
+
+.somos {
+    grid-area: somos;
+}
+
+.redes {
+    grid-area: redes;
+}
+
+.menusdiv {
+    grid-area: menus;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+header div nav ul {
+    display: flex;
+    align-items: center;
+}
+header div nav ul li {
+    list-style: none;
+    
+    
+}
+header div nav ul li a { 
+    text-decoration: none;
+    color: white;
+    
+}
+
+.animacionmenu1:hover {
+    transform: scale(1.5);
+
+}
+
+.animacionmenu1 {
+    transition: all 2s; 
+    margin-left: 30px ;
+}
+/* SECTION */ 
+
+section {
+    background-image: url(./Multimedia/Fondo/abstract-dark-blurred-background-smooth-gradient-texture-color-shiny-bright-website-pattern-banner-header-or-sidebar-graphic-art-image.jpg);
+}
+
+section div h2 {
+    color: white;
+}
+
+
+/* SECCIONB */
+section {
+    background-color: beige
+}
+
+/* FOOTER */
+.grid-container {
+    display: grid;
+    grid-template-rows: 150px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-template-areas:
+    "somos redes llegar";
+
+}
+
+
+
+
+
+footer {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(247, 36, 36);
+}
+
+footer div nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer div nav ul li {
+    list-style: none;
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    
+   
+    
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+   
+    
+}
+
+.footer3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+   
+    
+}
+
+
+.tituloredes {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.somos {
+    grid-area: somos;
+}
+
+.redes {
+    grid-area: redes;
+}
+
+.llegar {
+    grid-area: llegar;
+}
+
+.imgfacebook {
+    width: 20%;
+}
+
+.imginstagram{
+ width: 20%;
+}
+
+.imgtwitter {
+ width: 20%;
+}
+
+.imglinkedin {
+ width: 20%;
+}
+
+.imgcomollegar {
+ width: 100%;
+}
